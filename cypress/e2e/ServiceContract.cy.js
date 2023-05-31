@@ -13,7 +13,7 @@ it('Verify User can create Add revision in Service Contracts list',() => {
           cy.writeFile('cypress/fixtures/SolutionListUrl.json', { AddRevisions: SolutionList });
         });
 })
-it.only('Verify user Add products in Solution',() => {
+it('Verify user Add products in Solution',() => {
 
     cy.readFile('cypress/fixtures/SolutionListUrl.json').then(fileData => {
         cy.visit(fileData.AddRevisions);
@@ -50,5 +50,18 @@ it.only('Verify user Add products in Solution',() => {
     
     })
     
+})
+it.only ('Verify user add renew in servcie contract',()=>{
+  cy.TapOnServiceContractTab();
+  cy.get('[ng-model="entitygridSearchText" ]').eq(0).type('D101291M')
+  cy.get('#ag-394-input').click()
+  cy.get('#CustomButton0').click()
+  cy.get('[aria-controls="OpportunityIdglookup_Input_listbox"]').click()
+  cy.wait(2000)
+    cy.get('[id="OpportunityIdglookup_Input_listbox"]').should('be.visible').then(() => {
+    cy.get('[data-offset-index="3"]').click()})    
+   cy.get('[data-uipath="GenericPopupForm/PopupSave"]').click()
+   cy.url().should('include', '/solutionslist/resalemaintsolution')
+  
 })
 });
