@@ -1,0 +1,48 @@
+[
+ {
+  "OEMName": "Canon",
+  "PartNumber": "7994A001",
+  "ModelName": "Canon imageCLASS D320 Printer",
+  "SerialNum": "PPT-A-22",
+  "Quantity": 1,
+  "StartDate": "6\/28\/2022",
+  "EndDate": "6\/6\/2025",
+  "ServiceLevel": "Test-SP01",
+  "LocationName": "Location 3",
+  "LocationAddress1": 128,
+  "LocationCity": "New York",
+  "LocationState": "NY",
+  "LocationZip": 10009,
+  "LocationCountry": "United States"
+ },
+ {
+  "OEMName": "Canon",
+  "PartNumber": "9842A002AA",
+  "ModelName": "Canon imageFORMULA Scanner DR-5010",
+  "Quantity": 1,
+  "StartDate": "6\/28\/2022",
+  "EndDate": "6\/6\/2025",
+  "ServiceLevel": "Test-SP02",
+  "LocationName": "Location 4",
+  "LocationAddress1": 133,
+  "LocationCity": "New York",
+  "LocationState": "NY",
+  "LocationZip": 10009,
+  "LocationCountry": "United States"
+ },
+ {
+  "OEMName": "Canon",
+  "PartNumber": "3801B002",
+  "ModelName": "Canon imageFORMULA Scanner DR-6010",
+  "Quantity": 1,
+  "StartDate": "6\/28\/2022",
+  "EndDate": "6\/6\/2025",
+  "ServiceLevel": "Test-SP03",
+  "LocationName": "Location 5",
+  "LocationAddress1": 130,
+  "LocationCity": "New York",
+  "LocationState": "NY",
+  "LocationZip": 10009,
+  "LocationCountry": "United States"
+ }
+]
