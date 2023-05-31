@@ -3,7 +3,7 @@ import commonObjects from '../support/PageObjects/commonObjects.js'
 
 const PO = new commonObjects()
 
-it.only('Create New Rule' , () =>{  
+it('Create New Rule' , () =>{  
     cy.AdminRule()
     cy.AddNewRule()
     cy.SearchNewRule()
